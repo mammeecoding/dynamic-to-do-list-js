@@ -12,13 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
       li.textContent = taskText;
       li.innerHTML =taskText.value;
       taskList.appendChild(li)
-      let button = document.createElement('button');
-      button.textContent = "Remove";
-      button.className = 'remove-btn';
-      addButton.onclick = button;
+      let remove = document.createElement('button');
+      remove.textContent = "Remove";
+      remove.className = 'remove-btn';
+      remove.onclick = taskList.textContent = '';
       button.appendChild(li);
       li.append(taskList);
       taskInput.value === '';
+      classList.add
     }
   }
 
